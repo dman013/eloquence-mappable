@@ -1,6 +1,6 @@
-# Sofa/Eloquence
+# Dmn013/Eloquence
 
-[![Build Status](https://travis-ci.org/jarektkaczyk/eloquence-mappable.svg)](https://travis-ci.org/jarektkaczyk/eloquence-mappable) [![Coverage Status](https://coveralls.io/repos/jarektkaczyk/eloquence-mappable/badge.svg)](https://coveralls.io/r/jarektkaczyk/eloquence-mappable) [![Code Quality](https://scrutinizer-ci.com/g/jarektkaczyk/eloquence-mappable/badges/quality-score.png)](https://scrutinizer-ci.com/g/jarektkaczyk/eloquence-mappable) [![Downloads](https://poser.pugx.org/sofa/eloquence-mappable/downloads)](https://packagist.org/packages/sofa/eloquence-mappable) [![stable](https://poser.pugx.org/sofa/eloquence-mappable/v/stable.svg)](https://packagist.org/packages/sofa/eloquence-mappable)
+[![Build Status](https://travis-ci.org/jarektkaczyk/eloquence-mappable.svg)](https://travis-ci.org/jarektkaczyk/eloquence-mappable) [![Coverage Status](https://coveralls.io/repos/jarektkaczyk/eloquence-mappable/badge.svg)](https://coveralls.io/r/jarektkaczyk/eloquence-mappable) [![Code Quality](https://scrutinizer-ci.com/g/jarektkaczyk/eloquence-mappable/badges/quality-score.png)](https://scrutinizer-ci.com/g/jarektkaczyk/eloquence-mappable) [![Downloads](https://poser.pugx.org/dmn013/eloquence-mappable/downloads)](https://packagist.org/packages/dmn013/eloquence-mappable) [![stable](https://poser.pugx.org/dmn013/eloquence-mappable/v/stable.svg)](https://packagist.org/packages/dmn013/eloquence-mappable)
 
 Easy and flexible extensions for the [Eloquent ORM](https://laravel.com/docs/eloquent).
 
@@ -16,10 +16,10 @@ Currently available extensions:
 ## Installation
 
 ```bash
-composer require sofa/eloquence-mappable
+composer require dmn013/eloquence-mappable
 ```
 
-**Check the [documentation](https://github.com/jarektkaczyk/eloquence/wiki) for installation and usage info, [website](http://softonsofa.com/tag/eloquence/) for examples and [API reference](http://jarektkaczyk.github.io/eloquence-api)**
+**Check the [documentation](https://github.com/jarektkaczyk/eloquence/wiki) for installation and usage info, [website](http://softondmn013.com/tag/eloquence/) for examples and [API reference](http://jarektkaczyk.github.io/eloquence-api)**
 
 ## Contribution
 
