@@ -5,7 +5,7 @@ namespace Dmn013\Eloquence;
 use LogicException;
 use Illuminate\Support\Arr;
 use Dmn013\Eloquence\Mappable\Hooks;
-use Dmn013\Hookable\Contracts\ArgumentBag;
+use Sofa\Hookable\Contracts\ArgumentBag;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -61,7 +61,7 @@ trait Mappable
      *
      * @param  \Dmn013\Eloquence\Builder $query
      * @param  string $method
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @return mixed
      */
     protected function mappedQuery(Builder $query, $method, ArgumentBag $args)
@@ -81,7 +81,7 @@ trait Mappable
      * Adjust mapped columns for select statement.
      *
      * @param  \Dmn013\Eloquence\Builder $query
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @return void
      */
     protected function mappedSelect(Builder $query, ArgumentBag $args)
@@ -127,7 +127,7 @@ trait Mappable
      *
      * @param  \Dmn013\Eloquence\Builder $query
      * @param  string $method
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @param  string $mapping
      * @return mixed
      */
@@ -147,7 +147,7 @@ trait Mappable
      *
      * @param  \Dmn013\Eloquence\Builder $query
      * @param  string $method
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @param  string $target
      * @param  string $column
      * @return mixed
@@ -169,7 +169,7 @@ trait Mappable
      * Order query by mapped attribute.
      *
      * @param  \Dmn013\Eloquence\Builder $query
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @param  string $table
      * @param  string $column
      * @param  string $target
@@ -184,7 +184,7 @@ trait Mappable
 
   /**
    * @param  \Dmn013\Eloquence\Builder $query
-   * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+   * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
    * @param  string $table
    * @param  string $column
    *
@@ -199,7 +199,7 @@ trait Mappable
      * Get an array with the values of given mapped attribute.
      *
      * @param  \Dmn013\Eloquence\Builder $query
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @param  string $table
      * @param  string $column
      * @return array
@@ -346,7 +346,7 @@ trait Mappable
      *
      * @param  \Dmn013\Eloquence\Builder $query
      * @param  string $method
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @param  string $target
      * @param  string $column
      * @return \Dmn013\Eloquence\Builder
@@ -368,7 +368,7 @@ trait Mappable
      * Get the relation constraint closure.
      *
      * @param  string $method
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @return \Closure
      */
     protected function getMappedWhereConstraint($method, ArgumentBag $args)
@@ -397,7 +397,7 @@ trait Mappable
      * Determine the operator for count relation query and set 'not' appropriately.
      *
      * @param  string $method
-     * @param  \Dmn013\Hookable\Contracts\ArgumentBag $args
+     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
      * @return string
      */
     protected function getMappedOperator($method, ArgumentBag $args)
